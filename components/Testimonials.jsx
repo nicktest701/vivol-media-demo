@@ -20,8 +20,12 @@ const Testimonials = () => {
             <div className='tc flex flex-col lg:flex-row justify-between items-center gap-5 border border-black p-10 leading-relaxed text-lg'>
               <div className='w-[40%] text-center lg:text-left'>
                 <Star />
-                <p className='whitespace-nowrap font-bold'>Aya Ahmad</p>
-                <p className='whitespace-nowrap'>Founder - Fyne Jewellry</p>
+                <p className='whitespace-nowrap font-bold text-center lg:text-left'>
+                  Aya Ahmad
+                </p>
+                <p className='whitespace-nowrap text-center lg:text-left'>
+                  Founder - Fyne Jewellry
+                </p>
               </div>
               <div className='text-center lg:text-right'>
                 I can definitely say the team&lsquo;s communication was spot on.
@@ -43,10 +47,12 @@ const Testimonials = () => {
             <div className='tc flex flex-col lg:flex-row justify-between items-center gap-5 border border-black p-10 leading-relaxed text-lg'>
               <div className='w-[40%] text-center lg:text-left'>
                 <Star />
-                <p className='whitespace-nowrap font-bold'>
+                <p className='whitespace-nowrap font-bold text-center lg:text-left'>
                   Rory O&lsquo;Neill
                 </p>
-                <p className='whitespace-nowrap'>Director, Lumired</p>
+                <p className='whitespace-nowrap text-center lg:text-left'>
+                  Director, Lumired
+                </p>
               </div>
               <div className='text-center lg:text-right'>
                 Vevol Media understood exactly what we required, even before we
@@ -55,7 +61,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div className='testimonial-link hidden lg:block text-center text-xl font-normal'>
-              <a href='' className='block whitespace-nowrap text-pink-600'>
+              <a href='' className='block whitespace-nowrap  text-pink-600'>
                 See Project
               </a>
               <a href='' className='block whitespace-nowrap text-pink-600'>
@@ -68,8 +74,12 @@ const Testimonials = () => {
             <div className='tc flex flex-col lg:flex-row justify-between items-center gap-5 border border-black p-10 leading-relaxed text-lg'>
               <div className='w-[40%]  text-center lg:text-left'>
                 <Star />
-                <p className='whitespace-nowrap font-bold'>Sarah Liu</p>
-                <p className='whitespace-nowrap'>CMO - ToplCup</p>
+                <p className='whitespace-nowrap font-bold text-center lg:text-left'>
+                  Sarah Liu
+                </p>
+                <p className='whitespace-nowrap text-center lg:text-left'>
+                  CMO - ToplCup
+                </p>
               </div>
               <div className='text-center lg:text-right'>
                 We find their yes-can-do attitude impressive and they are always
